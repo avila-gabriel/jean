@@ -95,7 +95,7 @@ Discutimos os critérios para filtragem de artigos e as ferramentas de busca mai
 
 **Daily 2**  
 Data: 14/06/2025  
-Foram selecionadas as principais fontes e distribuída a leitura crítica.  
+As principais fontes foram selecionadas, mas a finalização do material (US-01C) foi concluída somente no dia 17/06/2025, antes da retrospectiva da Sprint 1. 
 ![Daily 2](./daily2.png)  
 ![Burndown Sprint 1](./burndown_sprint1.png)
 
@@ -147,7 +147,7 @@ Foram selecionadas as principais fontes e distribuída a leitura crítica.
 | :---: | ----- | :---: |
 | US-01A | Buscar fontes | ![Resultado US-01A](./resultado_US-01A.png) |
 | US-01B | Filtrar fontes | ![Resultado US-01B](./resultado_US-01B.png) |
-| US-01C | Selecionar fontes principais | ![Resultado US-01C](./resultado_US-01C.png) |
+> Nota: a tarefa US-01C foi concluída no último dia da Sprint (17/06), após o segundo daily, mas antes da retrospectiva.
 
 ### 		**6.2 Sprint 2**
 
