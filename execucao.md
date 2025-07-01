@@ -74,11 +74,11 @@ Figura 2: Visão geral do Quadro Kanban ao final da Sprint 1
 
 ### 		**3.2 Sprint 2**
 
-*\<FIGURA\>*  
-*Figura 3: Visão geral do Quadro Kanban no início da Sprint 2*
+![Kanban Sprint 2 - Início](./kanban_sprint2_inicio.png)  
+Figura 3: Visão geral do Quadro Kanban no início da Sprint 2
 
-*\<FIGURA\>*  
-*Figura 4: Visão geral do Quadro Kanban ao final da Sprint 2*
+![Kanban Sprint 2 - Final](./kanban_sprint2_final.png)  
+Figura 4: Visão geral do Quadro Kanban ao final da Sprint 2
 
 ## **4\. Reuniões de Acompanhamento**
 
@@ -90,13 +90,10 @@ Figura 2: Visão geral do Quadro Kanban ao final da Sprint 1
 **Daily 1**  
 Data: 12/06/2025  
 Discutimos os critérios para filtragem de artigos e as ferramentas de busca mais eficazes.  
-![Daily 1](./daily1.png)  
-![Burndown Sprint 1](./burndown_sprint1.png)
 
 **Daily 2**  
 Data: 14/06/2025  
 As principais fontes foram selecionadas, mas a finalização do material (US-01C) foi concluída somente no dia 17/06/2025, antes da retrospectiva da Sprint 1. 
-![Daily 2](./daily2.png)  
 ![Burndown Sprint 1](./burndown_sprint1.png)
 
 ### 		**4.2 Sprint 2**
@@ -113,13 +110,11 @@ As principais fontes foram selecionadas, mas a finalização do material (US-01C
 
 ***Daily 4***
 
-*Data: \<Data\>*
+**Data: 21/06/2025**  
+A equipe reportou progresso no rascunho da introdução e na seção de objetivos. Foi discutido o ajuste do escopo da US-03B para melhorar a clareza textual. A tarefa US-02C (referências) ficou prevista para ser concluída até o dia 23.
 
-*\<Resumo do que foi discutido\>*
-
-*\<Figura com evidência da reunião\>*
-
-*\<Figura com o gráfico de burndown atualizado\>*
+![Daily 4](./daily4.png)  
+![Burndown Sprint 2](./burndown_sprint2.png)
 
 ## **5\. Retrospectivas**
 
@@ -145,19 +140,28 @@ As principais fontes foram selecionadas, mas a finalização do material (US-01C
 
  # | Tarefas | Resultado |
 | :---: | ----- | :---: |
-| US-01A | Buscar fontes | ![Resultado US-01A](./resultado_US-01A.png) |
-| US-01B | Filtrar fontes | ![Resultado US-01B](./resultado_US-01B.png) |
+| US-01A | Buscar fontes | Sim |
+| US-01B | Filtrar fontes | Sim |
 > Nota: a tarefa US-01C foi concluída no último dia da Sprint (17/06), após o segundo daily, mas antes da retrospectiva.
 
 ### 		**6.2 Sprint 2**
 
-| \# | Tarefas | Resultado |
-| :---: | ----- | :---: |
-| *US-02* | *US-02A*  | *\[Print e/ou link com evidência do resultado alcançado com a realização da tarefa\]* |
-| *US-02* | *US-02B*  | *\[Print e/ou link com evidência do resultado alcançado com a realização da tarefa\]* |
-| *US-02* | *US-02C*  | *\[Print e/ou link com evidência do resultado alcançado com a realização da tarefa\]* |
-| *US-03* | *US-03A*  | *\[Print e/ou link com evidência do resultado alcançado com a realização da tarefa\]* |
-| *US-03* | *US-03B*  | *\[Print e/ou link com evidência do resultado alcançado com a realização da tarefa\]* |
+| \#      | Tarefas                                | Status                  |
+|--------:|-----------------------------------------|--------------------------|
+| US-02A  | Esboçar tópicos da Introdução           | Concluída – ver Figura 1 |
+| US-02B  | Redigir rascunho da Introdução          | Concluída – ver Figura 2 |
+| US-03A  | Descrever problema e objetivos          | Concluída – ver Figura 3 |
+| US-02C  | Revisar e incluir referências           | Em andamento             |
+| US-03B  | Revisar clareza dos objetivos           | Não concluída            |
+
+**Figura 1** – Evidência da tarefa US-02A (Esboço dos tópicos da Introdução):  
+![Resultado US-02A](./intro_topicos.png)
+
+**Figura 2** – Evidência da tarefa US-02B (Rascunho da Introdução):  
+![Resultado US-02B](./intro_rascunho.png)
+
+**Figura 3** – Evidência da tarefa US-03A (Descrição do problema e dos objetivos):  
+![Resultado US-03A](./problema_objetivos.png)
 
 ## **Sugestões de ferramentas:**
 
