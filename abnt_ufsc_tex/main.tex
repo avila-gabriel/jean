@@ -1,0 +1,61 @@
+
+\documentclass[
+brazilian,
+12pt,
+a4paper,
+oneside,
+chapter=TITLE,
+section=TITLE
+]{setup/abnt_ufsc_tex}
+
+\titulo{
+    Relatório de Execução do Projeto \\
+    \large INE5617-07238 - Gerência de Projetos
+}
+\local{Florianópolis -- SC}
+\ano{2025}
+\autor{
+    Manuela Schmitz \and Gabriel Avila \and Gustavo Cortez de Brito \and Thayssa Yasmin Alcantara de Godoi \\
+    Universidade Federal de Santa Catarina (UFSC) \\
+    Curso de Sistemas de Informação
+}
+\instituicao{Universidade Federal de Santa Catarina (UFSC)}
+\instituicaosigla{UFSC}
+\programa{Curso de Sistemas de Informação}
+\tipotrabalho{Relatório de Execução do Projeto}
+\data{10 de junho de 2025 \\ Florianópolis -- SC}
+
+\hypersetup{
+    pdfsubject={Relatório de Execução do Projeto},
+    pdfcreator={LaTeX},
+    pdftitle={Relatório de Execução do Projeto - INE5617-07238},
+    pdfauthor={Manuela Schmitz, Gabriel Avila, Gustavo Cortez de Brito, Thayssa Yasmin Alcantara de Godoi},
+    pdfkeywords={Gerência de Projetos, UFSC, Relatório de Execução, INE5617},
+}
+\input{settings.tex}
+\newif\ifforcedinclude\forcedincludefalse
+
+\makeatletter
+\newcommand{\xRightarrow}[2][]{\ext@arrow 0359\Rightarrowfill@{#1}{#2}}
+\newcommand{\xLeftarrow}[2][]{\ext@arrow 0359\Leftarrowfill@{#1}{#2}}
+\makeatother
+\interfootnotelinepenalty=10000
+
+\ifforcedinclude\openany\else\fi
+
+\emergencystretch=5em
+
+\begin{document}
+\raggedbottom
+\frenchspacing
+\input{beforetext/beforetext.tex}
+\textual
+
+\input{chapters/product_backlog}
+\input{chapters/sprint_planning}
+\input{chapters/quadro_kanban}
+\input{chapters/reunioes_acompanhamento}
+\input{chapters/retrospectivas}
+\input{chapters/resultados_sprint}
+
+\end{document}
