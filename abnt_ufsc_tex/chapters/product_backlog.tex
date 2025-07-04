@@ -1,54 +1,30 @@
 % ---------------- Product Backlog ----------------
 \section{Product Backlog}
 
-\paragraph{Unidade de estimativa:} 1 Story Point (SP) corresponde a 1 hora de trabalho.
+Unidade de estimativa: 1 Story Point (SP) corresponde a 1 hora de trabalho.
 
 \begin{table}[htbp]
   \centering
-  \caption{Histórias de usuário}
-  \label{tab:backlog}
-  \begin{tabular}{cccc}
+  \caption{Product Backlog consolidado}
+  \label{tab:productbacklog}
+  \begin{tabular}{lc}
     \toprule
-    Prioridade & ID & Descrição & Estimativa (SP) \\
+    Descrição da Tarefa & Estimativa (pessoas·hora) \\
     \midrule
-    Alta  & US-01 & Pesquisar bibliografia inicial & 15 \\
-    Alta  & US-02 & Redigir Introdução & 8 \\
-    Média & US-03 & Descrever problema e objetivos & 6 \\
-    Média & US-04 & Elaborar justificativa e relevância & 5 \\
-    Baixa & US-05 & Definir metodologia de pesquisa & 7 \\
-    Baixa & US-06 & Planejar cronograma e riscos & 4 \\
+    Buscar fontes em bases científicas & 6 \\
+    Filtrar fontes relevantes & 8 \\
+    Selecionar 3 principais fontes & 1 \\
+    Esboçar tópicos da Introdução & 2 \\
+    Redigir rascunho da Introdução & 5 \\
+    Revisar e incluir referências & 1 \\
+    Descrever problema e objetivos & 4 \\
+    Revisar clareza dos objetivos & 2 \\
+    Fazer cronograma de Gantt & 4 \\
+    Fazer cronograma resumido & 2 \\
+    Elaborar estimativa de custos & 3 \\
+    Identificar e analisar riscos & 4 \\
+    Revisar proposta de TCC & 2 \\
     \bottomrule
   \end{tabular}
-  \fonte{Elaboração própria.}
-\end{table}
-
-\begin{enumerate}[leftmargin=*, label=\arabic*.]
-  \item \textbf{Flexibilidade de escopo e adaptação contínua}\\
-        Conduzir o desenvolvimento sob abordagem iterativa e adaptativa,
-        permitindo ajustes de rota conforme os dados e insumos forem
-        disponibilizados por terceiros, respeitando os marcos definidos no
-        cronograma.
-\end{enumerate}
-
-\subsection{Escopo do Trabalho}\label{escopo-do-trabalho}
-
-\subsubsection{Entradas externas (pré-requisitos)}\label{entradas-externas-prerequisitos}
-
-\begin{table}[htbp]
-  \small
-  \caption{Entradas externas (pré-requisitos)}
-  \label{tab:entradas}
-  \centering
-  \begin{tabularx}{\linewidth}{@{}>{\RaggedRight\arraybackslash}p{2.5cm}
-                                    >{\RaggedRight\arraybackslash}X
-                                    >{\centering\arraybackslash}p{2.2cm}
-                                    >{\RaggedRight\arraybackslash}p{2.4cm}
-                                    >{\RaggedRight\arraybackslash}p{3.3cm}@{}}
-    \toprule
-    Origem & Entregável & Data prevista & Formato & Observação \\ \midrule
-    Eduardo   & Embeddings vetoriais das obras históricas & 31 jul 2025 & Parquet / FAISS / Chroma & Recuperação semântica \\[2pt]
-    Franciele & Documento de categorias (3 exemplos cada) & 15 ago 2025 & Markdown & Base p/ regras de categorização \\
-    \bottomrule
-  \end{tabularx}
   \fonte{Elaboração própria.}
 \end{table}
